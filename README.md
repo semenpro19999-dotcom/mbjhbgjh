@@ -1,17 +1,18 @@
-# Minesweeper AI
+# Minesweeper AI v1.0
 
-AI bot that solves Minesweeper using Python.
+Browser Minesweeper bot architecture.
 
-## Roadmap
+Features:
+- H: select board area
+- ESC: emergency stop
+- Vision module
+- Cell recognition pipeline
+- Solver engine
+- Mouse controller
 
-- [x] Project structure
-- [ ] Basic solver logic
-- [ ] Probability engine
-- [ ] Computer vision with OpenCV
-- [ ] Automatic mouse control
+Run:
 
-## Tech stack
-
-- Python
-- OpenCV
-- PyAutoGUI
+```bash
+pip install -r requirements.txt
+python main.py
+```
