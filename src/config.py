@@ -1,3 +1,0 @@
-BOARD_AREA = None
-CELL_SIZE = 32
-STOP_ON_MINE = True
