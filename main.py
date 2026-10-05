@@ -1,14 +1,11 @@
-from board import Board
-from solver import Solver
+from ai_controller import AIController
 
 
 def main():
     print("🤖 Minesweeper AI started")
 
-    board = Board()
-    solver = Solver(board)
-
-    solver.run()
+    bot = AIController()
+    bot.start()
 
 
 if __name__ == "__main__":
