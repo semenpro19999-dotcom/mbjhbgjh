@@ -1,11 +1,23 @@
+import sys
 from ai_controller import AIController
 
 
 def main():
-    print("🤖 Minesweeper AI started")
+    print("=" * 40)
+    print("🤖 Minesweeper AI v1.0")
+    print("=" * 40)
+    print()
+    print("Controls:")
+    print("  ESC — emergency stop")
+    print()
 
     bot = AIController()
-    bot.start()
+
+    try:
+        bot.start()
+    except KeyboardInterrupt:
+        print("\n⛔ Interrupted by user")
+        sys.exit(0)
 
 
 if __name__ == "__main__":
